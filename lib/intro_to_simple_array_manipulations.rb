@@ -24,3 +24,9 @@ def using_flatten(array)
 end
 using_flatten(instruments)
 
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+def using_delete(array, element)
+  array.delete(element)
+end
+using_delete("Steven")
+
