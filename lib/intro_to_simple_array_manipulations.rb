@@ -25,10 +25,10 @@ end
 using_flatten(instruments)
 
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-def using_delete(array, element)
+def using_delete(array,element)
   array.delete(element)
 end
-using_delete("Steven")
+using_delete(instructors,"Steven")
 
 famous_robots = ["Johnny 5", "R2D2", "Robocop"]
 def using_delete_at(array, element)
